@@ -1,0 +1,6 @@
+D:\GitHub-Projetos\CETECC\Pessoa-POO1\Pessoa-POO1\bin\Debug\Pessoa-POO1.exe.config
+D:\GitHub-Projetos\CETECC\Pessoa-POO1\Pessoa-POO1\bin\Debug\Pessoa-POO1.exe
+D:\GitHub-Projetos\CETECC\Pessoa-POO1\Pessoa-POO1\bin\Debug\Pessoa-POO1.pdb
+D:\GitHub-Projetos\CETECC\Pessoa-POO1\Pessoa-POO1\obj\Debug\Pessoa-POO1.csprojResolveAssemblyReference.cache
+D:\GitHub-Projetos\CETECC\Pessoa-POO1\Pessoa-POO1\obj\Debug\Pessoa-POO1.exe
+D:\GitHub-Projetos\CETECC\Pessoa-POO1\Pessoa-POO1\obj\Debug\Pessoa-POO1.pdb
