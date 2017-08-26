@@ -18,15 +18,31 @@ namespace Pessoa_POO1
         public string Cpf { get; set; }
         public string RG { get; set; }
         public string Endereco { get; set; }
+        public string CorDosOlhos { get; set; }
 
         public void Imprimir()
         {
             Console.WriteLine("Nome: " + Nome);
-            Console.WriteLine("Data de Nascimento: " + DataNascimento);
+            Console.WriteLine("Data de Nascimento: " + DataNascimento.ToString("dd/MM/yyyy"));
             Console.WriteLine("Tipo Sanguineo: " + TipoSanguineo);
+            Console.WriteLine("Cor dos olhos: " + CorDosOlhos);
             Console.WriteLine("Cpf: " + Cpf);
             Console.WriteLine("RG: " + RG);
             Console.WriteLine("Endereço: " + Endereco);
+            Console.WriteLine();
+            Console.WriteLine("Idade: " + CalcularIdade());
+        }
+
+        public int CalcularIdade()
+        {
+            DateTime agora = DateTime.Today;
+            int resultado = agora.Year - DataNascimento.Year;
+
+            if (agora.DayOfYear < DataNascimento.DayOfYear)
+            {
+                resultado--;
+            }
+            return resultado;
         }
     }
 }
