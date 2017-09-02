@@ -17,8 +17,13 @@ namespace Pessoa_POO1
         public string TipoSanguineo { get; set; }
         public string Cpf { get; set; }
         public string RG { get; set; }
-        public string Endereco { get; set; }
+        public Endereco Endereco { get; set; }
         public string CorDosOlhos { get; set; }
+
+        public Pessoa()
+        {
+            Endereco = new Endereco();
+        }
 
         public void Imprimir()
         {
